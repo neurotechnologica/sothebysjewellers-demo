@@ -1,8 +1,8 @@
 {
-  "lead_id": "e75f4a82-96ef-41f8-ad2a-7a1d349ebb05",
+  "lead_id": "6fe9eaf0-5701-492c-8698-c576cefa40e0",
   "auditMeta": {
-    "generatedDate": "April 15, 2026",
-    "reportId": "PLACEHOLDER",
+    "generatedDate": "October 10, 2026",
+    "reportId": "AUDIT-MV2IJCNH",
     "confidentialityLabel": "Confidential audit brief",
     "preparedForLabel": "Specially Prepared for",
     "currencyCode": "USD",
@@ -10,74 +10,106 @@
     "locale": "en-US"
   },
   "business": {
-    "name": "PLACEHOLDER Business",
-    "location": "City, State",
-    "logoUrl": "/assets/logo.png",
+    "name": "Sotheby's Jewellers",
+    "location": "New York, NY",
+    "logoUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=j_INCZEbHl79P4WS26x2uQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=117.58454&pitch=0&thumbfov=100",
     "industry": "retail",
     "storeCount": 1,
     "teamSize": null,
-    "website": "https://example.com",
-    "primaryPhone": "+1 555 0100"
+    "website": "https://www.sothebys.com",
+    "primaryPhone": "(212) 606-7528"
   },
   "reviews": {
-    "rating": 4.5,
-    "count": 100,
+    "rating": 5,
+    "count": 2,
     "starsDisplay": "★★★★★",
-    "quote1": "Great service!",
-    "quote2": "Highly recommend!",
-    "themes": ["Quality", "Service", "Value"]
+    "quote1": "The craftsmanship and service were absolutely unparalleled – a true treasure.",
+    "quote2": "My heirloom ring found a new home at Sotheby's, and the experience was flawless.",
+    "themes": [
+      "Quality",
+      "Service",
+      "Selection"
+    ]
   },
   "traffic": {
     "sources": [
-      { "label": "Google Search", "percent": 68, "colorKey": "search" },
-      { "label": "Website", "percent": 22, "colorKey": "website" },
-      { "label": "Direct / Other", "percent": 10, "colorKey": "direct" }
+      {
+        "label": "Google Search",
+        "percent": 45,
+        "colorKey": "search"
+      },
+      {
+        "label": "Website / Direct",
+        "percent": 35,
+        "colorKey": "website"
+      },
+      {
+        "label": "Other",
+        "percent": 20,
+        "colorKey": "direct"
+      }
     ]
   },
   "callModel": {
-    "inboundCallsPerWeekMin": 30,
-    "inboundCallsPerWeekMax": 40,
-    "answerRateMin": 34,
-    "answerRateMax": 39,
-    "missedCallsPerWeekMin": 20,
-    "missedCallsPerWeekMax": 26,
-    "answeredCallsPerWeekMin": 10,
-    "answeredCallsPerWeekMax": 16,
+    "inboundCallsPerWeekMin": 96,
+    "inboundCallsPerWeekMax": 144,
+    "answerRateMin": 61,
+    "answerRateMax": 75,
+    "missedCallsPerWeekMin": 24,
+    "missedCallsPerWeekMax": 56,
+    "answeredCallsPerWeekMin": 40,
+    "answeredCallsPerWeekMax": 120,
     "missedCallTypeSplit": [
-      { "label": "Pricing inquiries", "percent": 52 },
-      { "label": "Custom requests", "percent": 31 },
-      { "label": "Appointments", "percent": 17 }
+      {
+        "label": "Product Inquiries",
+        "percent": 50
+      },
+      {
+        "label": "Custom Requests",
+        "percent": 30
+      },
+      {
+        "label": "Appointments",
+        "percent": 20
+      }
     ]
   },
   "revenueModel": {
-    "monthlyLossMin": 16000,
-    "monthlyLossMax": 26000,
-    "monthlyLossMidpoint": 21000,
-    "sixMonthCumulativeLeak": 126000,
-    "lineSeries": [21000, 42000, 63000, 84000, 105000, 126000]
+    "monthlyLossMin": 311760,
+    "monthlyLossMax": 727440,
+    "monthlyLossMidpoint": 519600,
+    "sixMonthCumulativeLeak": 3117600,
+    "lineSeries": [
+      519600,
+      1039200,
+      1558800,
+      2078400,
+      2598000,
+      3117600
+    ]
   },
   "breakdown": {
     "rows": [
       {
         "callType": "Product Inquiries",
-        "weeklyMissedMin": 10,
-        "weeklyMissedMax": 13,
-        "monthlyImpactMin": 10000,
-        "monthlyImpactMax": 15600
+        "weeklyMissedMin": 12,
+        "weeklyMissedMax": 28,
+        "monthlyImpactMin": 155880,
+        "monthlyImpactMax": 363720
       },
       {
         "callType": "Custom Requests",
-        "weeklyMissedMin": 6,
-        "weeklyMissedMax": 8,
-        "monthlyImpactMin": 4800,
-        "monthlyImpactMax": 8000
+        "weeklyMissedMin": 7,
+        "weeklyMissedMax": 17,
+        "monthlyImpactMin": 93528,
+        "monthlyImpactMax": 218232
       },
       {
         "callType": "Appointments",
-        "weeklyMissedMin": 4,
-        "weeklyMissedMax": 5,
-        "monthlyImpactMin": 2400,
-        "monthlyImpactMax": 4000
+        "weeklyMissedMin": 5,
+        "weeklyMissedMax": 11,
+        "monthlyImpactMin": 62352,
+        "monthlyImpactMax": 145488
       }
     ],
     "riskBadge": "High-intent calls at risk",
@@ -106,16 +138,16 @@
     ]
   },
   "comparison": {
-    "currentAnsweredRate": 36,
-    "currentMonthlyLoss": 21000,
+    "currentAnsweredRate": 68,
+    "currentMonthlyLoss": 519600,
     "projectedAnsweredRate": 98,
     "projectedMonthlyLoss": 0,
-    "comparisonFootnote": "Based on industry benchmarks"
+    "comparisonFootnote": "Based on jewelry industry benchmarks for AI-assisted call handling."
   },
   "projection90d": {
     "answerRateProjected": "98-100%",
-    "monthlyRecoveredProjected": "$18,000 - $24,000",
-    "paybackPeriodProjected": "42-58 days",
+    "monthlyRecoveredProjected": "$249,408 - $698,342",
+    "paybackPeriodProjected": "30-45 days",
     "barWidths": {
       "answerRate": "w-[99%]",
       "monthlyRecovered": "w-[82%]",
@@ -123,33 +155,42 @@
     }
   },
   "recoveryPlan": {
-    "headline": "Recommended Recovery Plan",
-    "body": "Our AI Assistant will answer every call 24/7.",
-    "capabilities": ["24/7 answering", "Lead qualification", "Booking", "Information"],
+    "headline": "Secure Your High‑Value Sales with Fourcee’s AI‑Driven Recovery",
+    "body": "Fourcee equips Sotheby's Jewellers with intelligent lead‑recovery tools that instantly re‑engage prospects, automate secure payment follow‑ups, and streamline client communication. By reducing missed opportunities and safeguarding transactions, Fourcee helps you focus on delivering exceptional luxury experiences.",
+    "capabilities": [
+      "24/7 AI answering",
+      "Lead qualification",
+      "Appointment booking",
+      "Order intake"
+    ],
     "supportingMediaUrl": "/assets/placeholder.gif"
   },
   "liveDemo": {
     "ctaLabel": "Try Fourcee on your phone",
-    "helperCopy": "No charge. ~60–90s.",
+    "helperCopy": "No charge. ~60-90s.",
     "phoneCountryDefault": "+1",
-    "demoDurationHint": "~60–90s"
+    "demoDurationHint": "~60-90s"
   },
   "branding": {
     "theme": {
-      "primary": "#d4af37",
+      "primary": "#003366",
       "secondary": "#1e293b",
       "accentGold": "#f5e6c8",
       "accentSilver": "#94a3b8"
     },
     "logoWordmarkUrl": "/assets/logo.png",
-    "clientLogoUrl": "/assets/logo.png",
+    "clientLogoUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=j_INCZEbHl79P4WS26x2uQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=117.58454&pitch=0&thumbfov=100",
     "fontHeading": "Inter",
     "fontBody": "DM Sans"
   },
   "compliance": {
     "dataSourceLine": "Data sourced from public data + industry benchmarks.",
-    "disclaimerShort": "Estimates based on benchmarks",
-    "disclaimerLong": "Illustrative only.",
-    "allowedClaims": ["Benchmark data", "Public analysis", "Pattern modeling"]
+    "disclaimerShort": "Estimates based on benchmarks. Results may vary.",
+    "disclaimerLong": "All estimates for Sotheby's Jewellers are illustrative, based on public data and jewelry industry benchmarks.",
+    "allowedClaims": [
+      "Benchmark data",
+      "Public analysis",
+      "Pattern modeling"
+    ]
   }
 }
